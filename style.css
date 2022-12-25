@@ -1,0 +1,70 @@
+*,
+*::before,
+*::after{
+    text-decoration: none;
+    color: rgb(106, 0, 168);
+}
+
+body{
+    background-color: purple;
+    position: relative;
+    background-image: url(/images/webback.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.box{
+    width: 250px;
+    height: 500px;
+    border: 2px solid black;
+    border-radius: 7px;
+    margin-top: 100px;
+    margin-left: 385px;
+    background-color: rgb(167, 0, 130);
+    font-family: 'Noto Sans Georgian', sans-serif;
+}
+.box-bg{
+    width: 200px;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 5rem;
+    background-color: grey;
+    margin-top: 25px;
+    margin-left: 20px;
+}
+.bg-name{
+    margin-left: 58px;
+}
+.bg-nameno1{
+    margin-left: 57px;
+}
+.bg-nameno2{
+    margin-left: 60px;
+}
+.bg-nameno3{
+    margin-left: 68px;
+}
+.bg-nameno4{
+    margin-left: 63px;
+}
+.bg-nameno5{
+    margin-left: 66px;
+}
+.title{
+    margin-top: -560px;
+    margin-left: 410px;
+    color: white;
+    font-family: 'Noto Sans Georgian', sans-serif;
+    font-size: 20px;
+
+}
+.firstbox{
+    border: 2px solid black;
+    width: 250px;
+    height: 50px;
+    background-color: rgb(167, 0, 130);
+    border-radius: 25px;
+    margin-left: 384px;
+    margin-top: -55px;
+}

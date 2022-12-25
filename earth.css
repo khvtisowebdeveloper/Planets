@@ -1,0 +1,78 @@
+*,
+*::before,
+*::after{
+    text-decoration: none;
+    color: rgb(106, 0, 168);
+}
+
+body{
+    position: relative;
+    background-image: url(/images/webback.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Noto Sans Georgian', sans-serif;
+    color: white;
+}
+.earth{
+    font-size: 23px;
+    color: white;
+    margin-top: 70px;
+    width: 200px;
+    height: 40px;
+    margin-left: 230px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-radius: 5px;
+    background: rgba(0, 0, 0, 0.4);
+
+}
+.earthsinfo{
+    width: 600px;
+    color: white;
+    margin-left: 50px;
+    background: rgba(0, 0, 0, 0.4);
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-radius: 12px;
+}
+.earthimg{
+    width: 220px;
+    height: 220px;
+    margin-left: 710px;
+    margin-top: -250px;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 225px;
+}
+.earthssizes{
+    font-size: 23px;
+    color: white;
+    margin-top: 30px;
+    width: 200px;
+    height: 70px;
+    margin-left: 96px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-radius: 5px;
+    background: rgba(0, 0, 0, 0.4);
+    position: absolute;
+}
+.earthssizesinfo{
+    width: 300px;
+    color: white;
+    margin-left: 50px;
+    background: rgba(0, 0, 0, 0.4);
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-radius: 12px;
+    position: absolute;
+    margin-top: 120px;
+}
